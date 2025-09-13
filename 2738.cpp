@@ -44,8 +44,6 @@ int main(void)
         {
             cout << matrix2[i][j] << " ";
         }
-
-        cout << endl;
     }
 
     return 0;
