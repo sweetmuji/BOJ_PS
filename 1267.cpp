@@ -32,10 +32,16 @@ int main(void)
 
     if(Y < M)
     {
-        cout << 'Y' << Y;
+        cout << 'Y' << ' ' << Y;
     }
     else if(M < Y)
     {
-        cout << 'M' << M;
+        cout << 'M' << ' ' << M;
     }
+    else
+    {
+        cout << 'Y' << ' ' << 'M' << ' ' << Y;
+    }
+
+    return 0;
 }
